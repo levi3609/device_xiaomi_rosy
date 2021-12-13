@@ -345,3 +345,9 @@ persist.audio.dirac.speaker=true \
 persist.dirac.acs.controller=qem \
 persist.dirac.acs.storeSettings=1 \
 persist.dirac.acs.ignore_error=1
+
+# ZRAM
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.zram.mark_idle_delay_mins=60 \
+ro.zram.first_wb_delay_mins=180 \
+ro.zram.periodic_wb_delay_hours=24
