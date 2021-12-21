@@ -465,3 +465,7 @@ PRODUCT_PACKAGES += \
 # NFSParts
 PRODUCT_PACKAGES += \
     NFSParts
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
