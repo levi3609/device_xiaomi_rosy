@@ -455,3 +455,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libdisplayconfig.qti \
     libstagefright_enc_common
+
+# Gcam
+PRODUCT_PACKAGES += \
+    CameraGo
