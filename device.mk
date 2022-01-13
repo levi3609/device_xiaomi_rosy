@@ -349,7 +349,12 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.rosy.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.finix.rc \
+    init.spectrum.rc \
+    init.spectrum.sh \
+    init.camera.rc \
+    init.camera.sh
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
@@ -459,3 +464,7 @@ PRODUCT_PACKAGES += \
 # Gcam
 PRODUCT_PACKAGES += \
     CameraGo
+
+# NFSParts
+PRODUCT_PACKAGES += \
+    NFSParts
