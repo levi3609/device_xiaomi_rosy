@@ -355,3 +355,18 @@ ro.zram.periodic_wb_delay_hours=24
 # Apex
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.apex.updatable=false
+
+# Touch Improvemnt
+PRODUCT_PROPERTY_OVERRIDES += \
+touch.size.scale=1 \
+touch.size.bias=0 \
+touch.size.isSummed=0 \
+touch.pressure.scale=0.001 \
+touch.distance.calibration=none \
+touch.distance.scale=0 \
+touch.coverage.calibration=box \
+touch.gestureMode=spots \
+MultitouchSettleInterval=1ms \
+MultitouchMinDistance=1px \
+TapInterval=1ms \
+TapSlop=1px
