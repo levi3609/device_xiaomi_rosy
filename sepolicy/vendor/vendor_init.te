@@ -31,5 +31,3 @@ get_prop(vendor_init, hal_fingerprint_prop)
 
 # NFSParts
 get_prop(vendor_init, hal_dirac_prop)
-get_prop(vendor_init, vendor_spectrum_prop)
-get_prop(vendor_init, vendor_camera_prop)

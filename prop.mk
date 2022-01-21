@@ -329,14 +329,6 @@ media.wfd.max_resolution=5
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 persist.device_config.runtime_native.usap_pool_enabled=true
 
-# Spectrum
-PRODUCT_PROPERTY_OVERRIDES += \
-spectrum.support=1
-
-# Cam Api
-PRODUCT_PROPERTY_OVERRIDES += \
-camera.support=1
-
 # Dirac
 PRODUCT_PROPERTY_OVERRIDES += \
 audio.dirac.logging=0 \

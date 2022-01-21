@@ -23,7 +23,3 @@ allow system_app sysfs_fpsinfo:file rw_file_perms;
 allow system_app sysfs_fpsinfo:dir search;
 allow system_app sysfs_fps:file rw_file_perms;
 allow system_app sysfs_fastcharge:file { open read getattr write };
-allow system_app vendor_spectrum_prop:property_service set;
-get_prop(system_app, vendor_spectrum_prop);
-allow system_app vendor_camera_prop:property_service set;
-get_prop(system_app, vendor_camera_prop);

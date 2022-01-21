@@ -24,8 +24,6 @@ vendor.wlan.driver.config			u:object_r:vendor_wifi_prop:s0
 wifi.active.interface				u:object_r:vendor_wifi_prop:s0
 
 # NFSParts
-persist.spectrum.profile    u:object_r:vendor_spectrum_prop:s0
-persist.camera.profile                    u:object_r:vendor_camera_prop:s0
 audio.dirac.                        u:object_r:hal_dirac_prop:s0
 audio.dirac.logging                 u:object_r:hal_dirac_prop:s0
 persist.audio.dirac.                u:object_r:hal_dirac_prop:s0
