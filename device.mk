@@ -16,6 +16,9 @@
 
 $(call inherit-product, vendor/xiaomi/rosy/rosy-vendor.mk)
 
+TARGET_BOARD_PLATFORM := msm8953
+TARGET_BOARD_SUFFIX := _64
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
