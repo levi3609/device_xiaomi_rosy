@@ -227,6 +227,7 @@ dalvik.vm.heapmaxfree=8m
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
+ro.vendor.extension_library=libqti-perfd-client.so \
 vendor.perf.gestureflingboost.enable=true
 
 # Netmgrd
