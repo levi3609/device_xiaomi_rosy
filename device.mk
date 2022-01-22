@@ -353,7 +353,8 @@ PRODUCT_PACKAGES += \
     init.rosy.rc \
     init.target.rc \
     ueventd.qcom.rc \
-    init.finix.rc
+    init.finix.rc \
+    init.performance_level.rc
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
