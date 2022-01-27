@@ -30,7 +30,7 @@ vendor.audio.offload.track.enable=true \
 vendor.audio.parser.ip.buffer.size=262144 \
 vendor.audio.playback.mch.downsample=true \
 vendor.audio.pp.asphere.enabled=false \
-vendor.audio.safx.pbe.enabled=true \
+vendor.audio.safx.pbe.enabled=false \
 vendor.audio.spkr_prot.tx.sampling_rate=48000 \
 vendor.audio.tunnel.encode=false \
 vendor.audio.use.sw.alac.decoder=true \
@@ -330,15 +330,6 @@ media.wfd.max_resolution=5
 # USAP
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 persist.device_config.runtime_native.usap_pool_enabled=true
-
-# Dirac
-PRODUCT_PROPERTY_OVERRIDES += \
-audio.dirac.logging=0 \
-ro.audio.soundfx.dirac=true \
-persist.audio.dirac.speaker=true \
-persist.dirac.acs.controller=qem \
-persist.dirac.acs.storeSettings=1 \
-persist.dirac.acs.ignore_error=1
 
 # ZRAM
 PRODUCT_PROPERTY_OVERRIDES += \
