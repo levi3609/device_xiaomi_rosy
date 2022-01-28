@@ -192,7 +192,16 @@ ro.iorapd.enable=false
 PRODUCT_PRODUCT_PROPERTIES += \
 ro.config.low_ram=false \
 ro.lmk.log_stats=true \
-ro.lmk.use_minfree_levels=true
+ro.lmk.use_minfree_levels=true \
+ro.lmk.low=1001 \
+ro.lmk.medium=0 \
+ro.lmk.critical=0 \
+ro.lmk.critical_upgrade=false \
+ro.lmk.upgrade_pressure=100 \
+ro.lmk.downgrade_pressure=100 \
+ro.lmk.kill_heaviest_task=true \
+ro.lmk.kill_timeout_ms=100 \
+ro.lmk.log_stats=true
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -220,14 +229,6 @@ ro.vendor.qti.am.reschedule_service=true
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
-dalvik.vm.dex2oat-filter=speed \
-dalvik.vm.image-dex2oat-filter=speed \
-dalvik.vm.dex2oat64.enabled=true \
-debug.hwui.renderer=opengl \
-ro.sys.fw.dex2oat_thread_count=4 \
-dalvik.vm.boot-dex2oat-threads=8 \
-dalvik.vm.dex2oat-threads=4 \
-dalvik.vm.image-dex2oat-threads=4 \
 dalvik.vm.heapgrowthlimit=256m \
 dalvik.vm.heapstartsize=8m \
 dalvik.vm.heapsize=512m \
