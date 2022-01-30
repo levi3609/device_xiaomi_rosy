@@ -13,7 +13,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 $(call inherit-product, vendor/aosp/common.mk)
 ARCANA_DEVICE := rosy
 ARCANA_MAINTAINER := NFS-Project
-TARGET_SUPPORTS_BLUR := true
 
 # Pixel customization
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
