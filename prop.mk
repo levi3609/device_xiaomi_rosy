@@ -349,3 +349,7 @@ ro.zram.periodic_wb_delay_hours=24
 # Apex
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.apex.updatable=false
+
+# Zygote Preforking
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.device.config.runtime_native.usap_pool_enabled=true
